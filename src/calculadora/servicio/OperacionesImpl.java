@@ -11,19 +11,19 @@ public class OperacionesImpl implements Operaciones {
 	@Override
 	public int restar(int n1, int n2) {
 		
-		return 0;
+		return n1- n2;
 	}
 
 	@Override
 	public int multiplicar(int n1, int n2) {
 		
-		return 1;
+		return n1- n2;
 	}
 
 	@Override
 	public float dividir(float n1, float n2) {
 		
-		return 2;
+		return n1- n2;
 	}
 
 }
