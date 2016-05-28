@@ -5,7 +5,7 @@ public class OperacionesImpl implements Operaciones {
 	@Override
 	public int sumar(int n1, int n2) {
 		
-		return 0;
+		return n1+ n2;
 	}
 
 	@Override
