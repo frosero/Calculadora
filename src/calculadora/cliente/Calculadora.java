@@ -19,6 +19,7 @@ public class Calculadora {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
+        int o;
         OperacionesImpl op = new OperacionesImpl();
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
